@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+
+            .title{
+                background: lightgrey;
+                color: black;
+                border-right: 1px solid white;
+                width: 110px;                 
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: underline;
+                 
+            }
+            .data{
+                background: lightgrey;
+                display: flex;
+                border-right: 1px solid white;
+                justify-content: center;
+                align-items: center;
+                width: 110px;                 
+                height: 60px;
+                color: black;
+            }
+            #rowTitle{
+                display:flex;
+                border-bottom: 1px solid white;
+ 
+            }
+            #rowData{
+                display: flex;
+            }
+            #logo{
+                background: url(./img/lumberWoods.jpg) blue;
+                background-size: 110px 60px
+            }
+        </style>
+        
+</head>
+
+<body>
+    <div id="navigation-bar">
+
+    </div>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="profile.html">Profile Page </a>
+            </li>
+            <li>
+                <a href="confirmation.html">Confirmation Page</a>
+            </li>
+            <li>
+                <a href="login.html">Login Page </a>
+            </li>
+            <li>
+                <a href="index.html">Search Result Page</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div id="rowTitle">
+            <div class="title">Logo</div><div class="title">Company</div><div class="title">Product</div><div class="title">Price</div><div class="title">Address</div><div class="title">Phone</div>
+        </div>
+        <div id="rowData">
+            <div class="data" id="logo"></div>
+            <div class="data">Lumber Woods</div>
+            <div class="data"><a href="productDetail.html">Mahogany</a></div>
+            <div class="data">$10.99</div>
+            <div class="data">555 Seymour St</div>
+            <div class="data">604-434-5734</div>
+        </div>
+    </div>
+    <script src="./js/khoa.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
