@@ -11,7 +11,7 @@
             background: lightgrey;
             color: black;
             border-right: 1px solid white;
-            width: 150px;
+            width: 110px;
             height: 30px;
             display: flex;
             justify-content: center;
@@ -26,7 +26,7 @@
             border-right: 1px solid white;
             justify-content: center;
             align-items: center;
-            width: 150px;
+            width: 110px;
             height: 60px;
             color: black;
         }
@@ -44,11 +44,6 @@
         #logo {
             background: url(./img/lumberWoods.jpg) blue;
             background-size: 110px 60px
-        }
-        #footer{
-            text-align: center;
-            background-color: black;
-            color:white;
         }
     </style>
 
@@ -92,7 +87,27 @@
             <div class="data" id="logo"></div>
             <div class="data">Lumber Woods</div>
             <div class="data">
+                
                 <a href="productDetail.html">Mahogany</a>
+                <!-- <div class="modal fade"> -->
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Modal title</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <p>Modal body text goes here.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
             </div>
             <div class="data">$10.99</div>
             <div class="data">555 Seymour St</div>
@@ -103,8 +118,7 @@
     <script src="./js/khoa.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-     
-     
+    <footer id="footer"></footer>
 </body>
 
 </html>

@@ -1,5 +1,4 @@
 var myBar = document.getElementById('navigation-bar');
-console.log(myBar);
 
 function renderNavBar() {
     return `    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
@@ -43,3 +42,9 @@ function renderNavBar() {
 }
 const navHtml = renderNavBar();
 myBar.innerHTML = navHtml;
+
+
+const aDay = new Date();
+const YEAR = aDay.getFullYear();
+var footer = document.getElementById('footer'); 
+footer.innerHTML =  `CopyRight ${2017} Premium Wooods `;
