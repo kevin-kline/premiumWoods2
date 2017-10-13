@@ -25,7 +25,7 @@ function renderNavBar() {
                 <a href="profile.html">Profile</a>
             </li>
         </ul>
-        <form action="" class="navbar-form navbar-left" role="search">
+        <form action="searchResult.html" class="navbar-form navbar-left" role="search">
             <div class="formgroup">
                 <input type="text" class="form-control" placeholder="Enter wood to search">
                 <button type="submit" class="btn btn-default"><a href="searchResult.html" style="color: grey; text-decoration:none;">Submit</a></button>
