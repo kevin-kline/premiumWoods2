@@ -19,7 +19,7 @@ function renderNavBar() {
                 <a href="#">Contact</a>
             </li>
             <li>
-                <a href="#">About</a>
+                <a href="about.html">About</a>
             </li>
             <li>
                 <a href="profile.html">Profile</a>
