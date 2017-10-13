@@ -33,7 +33,7 @@ function renderNavBar() {
         </form>
         <ul class="nav navbar-nav navbar-right">
             <li >
-                <a href="#">Subscribe</a>
+                <a href="subscription.html">Subscribe</a>
             </li>
         </ul>
     </div>
